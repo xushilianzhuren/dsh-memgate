@@ -1,0 +1,10 @@
+# 记忆门 · 插件化
+# 旧检索件（统一搜索器/记忆全域查）都写死 <workspace>，且前者直接报"rg不可用"，
+# 后者静默空转。故本插件原生调 rg，不包死件。
+- insert:
+    - id: ql-memory
+      name: 'dsh-memgate'
+      config:
+        enabled: true
+        order: 110
+        tool: true

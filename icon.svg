@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Memory gate">
+  <defs>
+    <linearGradient id="qm-gate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#qm-gate)" d="M14 54V26a18 18 0 0 1 36 0v28z" opacity="0.9"/>
+  <path fill="#EEF2FF" d="M25 54V27a7 7 0 0 1 14 0v27z"/>
+  <circle cx="32" cy="22" r="9" fill="none" stroke="#312E81" stroke-width="3"/>
+  <path d="M38.5 28.5L45 35" stroke="#312E81" stroke-width="3.4" stroke-linecap="round"/>
+  <rect x="10" y="54" width="44" height="4" rx="2" fill="#6366F1"/>
+</svg>
